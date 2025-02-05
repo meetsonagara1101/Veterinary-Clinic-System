@@ -1,0 +1,6 @@
+﻿  a1ms3.c
+  clinic.c
+  core.c
+  Generating Code...
+E:\Github\Projects\New folder\core.c(215,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  a1ms3.vcxproj -> E:\Github\Projects\New folder\x64\Debug\a1ms3.exe

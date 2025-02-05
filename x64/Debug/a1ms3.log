@@ -1,0 +1,6 @@
+﻿  a1ms3.c
+  clinic.c
+  core.c
+E:\My Seneca\Semester - 01\IPC 144\Milestones\Milestone\core.c(214,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  a1ms3.vcxproj -> E:\My Seneca\Semester - 01\IPC 144\Milestones\Milestone\x64\Debug\a1ms3.exe

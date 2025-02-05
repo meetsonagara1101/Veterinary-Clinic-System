@@ -1,0 +1,33 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                              Milestone-03
+Full Name  : Meet Hitesh Sonagara
+Student ID#: 122208226
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+
+Ans 1: The three additional functions that I created in this workshop in order to make my code work are 
+as follows:
+1)  int nextSlotAvailable(struct Appointment* app, int maxAppointments);
+I used this function in the addAppointment function to check if another appointment is available or not. Furthermore, this function also checks whether the scheduled appointment struct array is able to contain additional entries by checking if the patient number value is less than one or not. If the function gives the value 1, the appointment slot is empty. If the value is 0, the appointment slot is unavailable.
+
+2) void searchPatientData(const struct Patient patient[], int max);
+This tool is used to search patient records by patient number or cell phone number. Information from the patient record can be found with the do...while loop and the if condition.
+
+3) int validAppointment(int patientNumber, struct Date date, struct Appointment *app, int maxAppointments);
+This function is used in the removeAppointment function to check if the data that the user wanted to remove had existed or not. Furthermore, this function reviews if the data provided by the user is correct and if it actually exists.
+ 
+Ans 2: In this code, the addAppointment function is used to execute various logics. The reason for this is that all of the logics employed in this function call other functions. Instead of checking the input value, I used the function directly from the core.c and core.h files. Furthermore, functions like inputIntPositive() and The inputs are stored using inputIntRange().
+
+Ans 3: To be honest, this milestone was really really challenging for me as I had to declare several functions, that can be challenging to understand in times. So at first was very difficult for me to complete the entire code before the deadline, but I eventually did it. The data types was simple to generate, and I had no issue doing them. Furthermore, sorting the data into an Appointments struct array was required to present the data in the correct format. Before many challenges with completing this function, I sorted the data after changing it to minutes. I wrote many functions such as nextSlotAvailable(), timeSlotAvailable(), and so on, and performing them was a struggle for me.
+
+
+
+
+
